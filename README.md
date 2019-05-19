@@ -1,9 +1,6 @@
 # Matrix Effect 
 ##### Assembler | Zaliczenie przedmiotu
 
-##
-##
-##
 
 > Animacja opiera się wygenerowaniu ranodmowych
 > ciągów znaków, ułożenia ich w kolumnie, której 
@@ -20,8 +17,6 @@
 - RET | Wracanie do wczesniejszej funkcji
 
 ### Funkcja rysująca : 
-##
-##
 ```sh
 printword:			 	; Funkcja rysująca
 ; bx = adres kolumny
@@ -112,16 +107,20 @@ printword:			 	; Funkcja rysująca
 ```
 
 #### Wygenerowany ciąg znaków zawiera :
-##
+
 - 2 białe znaki o kolorze ```0fh```
 - 6 jasno zielone znaki o kolorze ```0ah``` 
 - 12 ciemno zielonych znaków o kolorze ```02h```
 - kolejno puste znaki aby zachować odstęp od kolejnego ciągu
-#
-#
+
+
+
 ## Funkcja losująca znak w systemie ASCII od 33 do 126 :
-##
+
+
 http://stackoverflow.com/questions/17855817/generating-a-random-number-within-range-of-0-9-in-x86-8086-assembly
+
+
 ```sh
  RAND:  
 	MOV   ax, word[seed]
@@ -142,8 +141,6 @@ działanie programu, czego skutkiem był powolne generowanie każdego znaku.
 Ostatecznie zostało to zakomentwane, ponieważ efekt był inny niż
 zamierzony.
 
-
-##
 
 ### Efekt końcowy
 
