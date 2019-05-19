@@ -146,6 +146,7 @@ zamierzony.
 
 Można zauważyć, że słowa w kodzie ułożone są na odwrót, niż są wyświetlane w konsoli.
 Powód jest taki, że na stos wędruje wyszstko od drugiej strony. Przykładowo, pierwsze
-dwa białe znaki znajdą się na samym dole ciągu znaków, które są wyświetlane
+dwa białe znaki znajdą się na samym dole ciągu znaków, które są wyświetlane. Gdyby 
+nie wiadomość ta zdobyta na zajęciach, z pewnoscią do dzisiaj nie wiedziałbym co jest źle.
 
 
